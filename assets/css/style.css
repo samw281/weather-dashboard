@@ -1,0 +1,11 @@
+.btn, .form-input {
+    width: 100%;
+}
+
+#search-btn {
+    margin: 10px 0;
+}
+
+.cont-right {
+    padding: 15px;
+}
