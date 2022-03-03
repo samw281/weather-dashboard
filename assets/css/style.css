@@ -9,3 +9,7 @@
 .cont-right {
     padding: 15px;
 }
+
+.weather-list {
+    list-style: none;
+}
