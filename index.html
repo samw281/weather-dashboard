@@ -32,8 +32,9 @@
             <!-- container holding current and five day -->
         <div class="col-12 col-md-9 cont-right">
             <!-- container holding current weather -->
-            <div class="current-weather border border-dark">
+            <div class="current-weather">
               <h2 id="current-city"></h2>
+              <img id="current-icon" src="">
               <ul class="weather-list">
                   <li id="temp"></li>
                   <li id="wind"></li>
@@ -41,13 +42,46 @@
                   <li id="uvi"></li>
               </ul>
             </div>
+            <!-- five day title -->
+            <h2 id="five-day-h2"></h2>
+            <!-- container holding five day -->
             <div class="five-day">
-                <h3>5-Day Forecast:</h3>
-                <div id="day-1"></div>
-                <div id="day-2"></div>
-                <div id="day-3"></div>
-                <div id="day-4"></div>
-                <div id="day-5"></div>
+                <div id="day-1">
+                    <h2 id="day-1-date"></h2>
+                    <img id="day-1-icon" src="">
+                     <p id="day-1-temp"></p>
+                     <p id="day-1-wind"></p>
+                     <p id="day-1-humidity"></p>
+                </div>
+                <div id="day-2">
+                    <h2 id="day-2-date"></h2>
+                    <img id="day-2-icon" src="">
+                        <p id="day-2-temp"></p>
+                        <p id="day-2-wind"></p>
+                        <p id="day-2-humidity"></p>
+                </div>
+                <div id="day-3">
+                    <h2 id="day-3-date"></h2>
+                    <img id="day-3-icon" src="">
+                        <p id="day-3-temp"></p>
+                        <p id="day-3-wind"></p>
+                        <p id="day-3-humidity"></p>
+                </div>
+                <div id="day-4">
+                    <h2 id="day-4-date"></h2>
+                    <img id="day-4-icon" src="">
+                        <p id="day-4-temp"></p>
+                        <p id="day-4-wind"></p>
+                        <p id="day-4-humidity"></p>
+                </div>
+                <div id="day-5">
+                    <h2 id="day-5-date"></h2>
+                    <img id="day-5-icon" src="">
+                        <p id="day-5-temp"></p>
+                        <p id="day-5-wind"></p>
+                        <p id="day-5-humidity"></p>
+                </div>
+                
                 
             </div>
         </div>

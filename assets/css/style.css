@@ -1,15 +1,39 @@
-.btn, .form-input {
-    width: 100%;
+.btn,
+.form-input {
+  width: 100%;
 }
 
 #search-btn {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .cont-right {
-    padding: 15px;
+  padding: 15px;
 }
 
 .weather-list {
-    list-style: none;
+  list-style: none;
+}
+
+.five-day {
+  display:flex;
+  justify-content: space-around;
+}
+
+#day-1-date,
+#day-2-date,
+#day-3-date,
+#day-4-date,
+#day-5-date {
+  font-size: 25px;
+}
+
+#day-1,
+#day-2,
+#day-3,
+#day-4,
+#day-5 {
+  justify-content: center;
+  height: auto;
+  width: 200px;
 }
