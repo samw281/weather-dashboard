@@ -46,7 +46,7 @@ var oneCallUrl =
 searchForm.addEventListener("submit", function (event) {
   event.preventDefault();
   var geocodingUrl =
-    "http://api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/geo/1.0/direct?q=" +
     cityName.value +
     "&appid=e0d9ee6c1369f1e9f7efbfb5647c00b1";
   fetch(geocodingUrl)
@@ -71,7 +71,7 @@ searchForm.addEventListener("submit", function (event) {
                     console.log(data)
                   currentWeather.setAttribute("style", "border: solid 1px black;")
                   currentCity.textContent = cityName.value.toUpperCase(0) +" - "+ moment().format("MM/D/YYYY")
-                  document.getElementById("current-icon").src = "http://openweathermap.org/img/wn/"+data.current.weather[0].icon+"@2x.png";
+                  document.getElementById("current-icon").src = "https://openweathermap.org/img/wn/"+data.current.weather[0].icon+"@2x.png";
                   temp.textContent = "Temp: " + data.current.temp + " F";
                   wind.textContent = "Wind: " + data.current.wind_speed + " MPH";
                   humidity.textContent = "Humidity: " + data.current.humidity + " %";
